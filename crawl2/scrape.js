@@ -1,4 +1,4 @@
-//http://www.netinstructions.com/simple-web-scraping-with-node-js-and-javascript/
+/*//http://www.netinstructions.com/simple-web-scraping-with-node-js-and-javascript/
 var request = require('request');
 var cheerio = require('cheerio');
 var fs = require('fs');
@@ -22,4 +22,4 @@ request("https://www.reddit.com", function(error, response,body){
         console.log('User: ' + user);
         fs.appendFileSync('reddit.txt', title + '\n' + score + '\n' + user + '\n');
     });
-});
+});*/
